@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.MainPage"
+             Title="Main Page"
+             BackgroundColor="{StaticResource MidnightBlue}">
+
+    <VerticalStackLayout VerticalOptions="Center" Padding="10">
+        <Label Text="Bem-vindo ao Hotel"
+               FontFamily="Quicksand"
+               FontSize="32"
+               TextColor="{StaticResource White}" />
+
+        <Button Text="Contratação de Hospedagem" 
+                Clicked="OnContratacaoHospedagemClicked" 
+                BackgroundColor="{StaticResource Primary}" 
+                TextColor="{StaticResource White}"/>
+
+        <Button Text="Sobre" 
+                Clicked="OnSobreClicked" 
+                BackgroundColor="{StaticResource Primary}" 
+                TextColor="{StaticResource White}"/>
+    </VerticalStackLayout>
+</ContentPage>
